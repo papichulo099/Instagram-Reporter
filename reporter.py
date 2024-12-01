@@ -55,24 +55,24 @@ save_login_info.click()
 
 
 while True:
-    more = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[1]/div[2]/div/div[1]/section/main/div/header/section[2]/div/div/div[3]/div/div/svg")))
+    more = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[2]/div/div[1]/section/main/div/header/section[2]/div/div[1]/div[2]/div/div/svg")))
     more.click()
 
 
-    report = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[4]/div[1]/div/div[2]/div/div/div/div/div/button[3]")))
+    report = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[7]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/button[2]/div")))
     report.click()
 
     report_acc = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/button[2]/div")))
     report_acc.click()
 
-    second = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/button[2]/div")))
+    second = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[7]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/button[2]/div")))
     second.click()
 
-    me = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/fieldset/div[1]")))
+    me = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[7]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[6]/button")))
     me.click()
 
-    submit = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[6]/button")))
+    submit = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[7]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[6]/button")))
     submit.click()
 
-    close = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div/div/div/div[4]/button")))
+    close = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[7]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div/div/div/div[4]/button")))
     close.click()
