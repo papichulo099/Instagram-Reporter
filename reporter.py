@@ -36,8 +36,7 @@ wait = WebDriverWait(driver, 100)
 print('Logging into Instagram')
 
 
-cookies = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/button[2]")))
-cookies.click()
+
 
 username = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[1]/div/label/input")))
 
